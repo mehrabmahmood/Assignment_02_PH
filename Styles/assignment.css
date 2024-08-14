@@ -1,0 +1,115 @@
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.miama-normal{
+  font-family: 'Miama', sans-serif;
+                                                
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.header{
+  background-color: rgba(17, 17, 17, 1);
+  padding: 57px 120px 0px 120px;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 1.8rem;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.nav-links {
+  margin-top: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+
+.head-title {
+  color: rgb(230, 83, 60);
+  font-family: 'Inter', sans-serif;
+  margin-left: 3.125rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.button-1 {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  border: none;
+}
+.button-2{
+   width: 200px;
+  height: 54px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+
+}
+.button-3{
+   width: 200px;
+  height: 54px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-radius: 42px;
+  background: rgba(17, 17, 17, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+
+}
+
+/* Section 01 */
+.section_01{
+
+  
+}
+.title{
+  color: rgba(255, 255, 255, 1);
+  font-size: 78px;
+  font-weight: bolder;
+}
+.title-below{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+
+.background-image{
+  background-image:url('../images/Images\ 2.png');
+  background-position:  center ;
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 450px;
+  background-size: cover;
+
+}
+.color{
+  color: blanchedalmond;
+}
+
