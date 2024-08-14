@@ -204,17 +204,23 @@ order: 0;
 flex-grow: 0;
 margin: 58px 0px;
 }
-.h1-3
+.head-02
 {
    font-size: 48px;
    color: white;
 }
-.p-2
+.head-body-02
 {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
    
+}
+
+/* added new section */
+.sub-section-03{
+  align-items: center;
+  justify-content: center;
 }
 .h1-4
 {
@@ -557,6 +563,16 @@ letter-spacing: 0%;
 }
 .h1-8{
     color: white;
+}
+
+
+/* footer class */
+.footer{
+  text-align: center;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.5);
+            
+            border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 
