@@ -51,17 +51,17 @@
   font-size: 2.25rem;
   font-weight: 600;
 }
+
 .button-1 {
   width: 80px;
   height: 30px;
-  display: flex;
   color: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
-  padding: 8px 20px;
   border-radius: 46px;
   background: rgb(230, 83, 60);
   border: none;
+  margin-left: -40px;
 }
 .button-2{
    width: 200px;
@@ -179,7 +179,7 @@
 
 .section-02
 {
-margin-left: 200px;
+margin-left: 50px;
 width: 1044px;
 height: 1100px;
 left: 198px;
@@ -231,7 +231,7 @@ margin: 58px 0px;
 .image
 {
     margin-top: 70px;
-    margin-left: 45px;
+    margin-left: 100px;
     text-align: center;
     border-radius: 100px;
     justify-content: center;
@@ -251,7 +251,7 @@ margin: 58px 0px;
 
 background: rgb(34, 34, 34);
 width: 1060px;
-height: 371px;
+height: 400px;
 
 flex: none;
 order: 0;
@@ -320,6 +320,7 @@ top: 30px;
 border-radius: 18px;
 margin-top: 40px;
 margin-left: 10px;
+margin-right: 40px;
 }
 .div-5-1
 {
@@ -492,7 +493,7 @@ width: 1060px;
 height: 820px;
 display: flex;
 flex-direction: column;
-margin-left: 200px;
+margin-left: 100px;
 align-items: center;
 padding: 0px;
 flex: none;
@@ -574,6 +575,285 @@ letter-spacing: 0%;
             
             border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
+
+
+/* Media Query for 425px screen size */
+@media (max-width: 425px) {
+  /* General Adjustments */
+  .header {
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .head-title {
+    margin-left: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: none;
+  }
+
+  .button-1 {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+  }
+
+  .section_01 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .sub-section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .title-below {
+    font-size: 14px;
+  }
+
+  .background-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px; /* Add some spacing above the image */
+  }
+
+  .overlap-1,
+  .overlap-2 {
+    width: 100px;
+    height: 50px;
+    top: unset; /* Reset the top position */
+    right: 10px;
+    left: 10px;
+    transform: translateY(0);
+  }
+
+  .overlap-1 {
+    top: 50px;
+  }
+
+  .overlap-2 {
+    top: 120px;
+  }
+
+  .large-text {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .small-text {
+    font-size: 12px;
+    text-align: center;
+  }
+  .overlap-1,
+  .overlap-2 {
+    width: 120px;
+    height: 60px;
+    right: 10px;
+    top: 100px;
+    margin: 20px auto;
+  }
+
+  .large-text {
+    font-size: 24px;
+  }
+
+  .small-text {
+    font-size: 10px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bmi-chart {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add some spacing below the chart */
+    width: 100%;
+    text-align: center;
+  }
+
+  .bmi-form {
+    width: 240px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+  .cal {
+    flex-direction: column;
+  }
+
+  .new, .news {
+    width: 100%;
+    margin-bottom: 10px; /* Add margin to separate inputs */
+  }
+
+  .button-4 {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .h1-5, .h1-6 {
+    font-size: 1.5rem;
+  }
+
+  .p-5, .p-6 {
+    font-size: 0.875rem;
+  }
+  /* Section 02 */
+  .section-02 {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .sub-section-02 {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+  }
+
+  .head-02 {
+    font-size: 32px;
+    text-align: center;
+  }
+  table {
+    width: 202px;
+    width: 360px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+
+  .head-body-02 {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
+  .div-flax {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-4 {
+    width: 75%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px 0;
+  }
+
+  .div-4-1 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h1-5 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .p-5 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .button-3 {
+    width: 180px;
+    height: 45px;
+    margin: 20px 0;
+  }
+
+  .image-1 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0;
+    border-radius: 12px;
+  }
+
+  .div-5-1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div-5-2 {
+    width: 93%;
+    height: auto;
+    margin-top: 50px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-one {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .new-two {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .gir,
+  .im-2 {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  /* Adjustments to text sizes */
+  .h1-4,
+  .h1-6,
+  .h1-7,
+  .h1-8 {
+    font-size: 1.5rem;
+  }
+
+  .p-6 {
+    font-size: 12px;
+  }
+
+  .item {
+    font-size: 14px;
+  }
+}
+
 
 
   
