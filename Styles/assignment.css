@@ -217,7 +217,7 @@ margin: 58px 0px;
    
 }
 
-/* added new section */
+
 .sub-section-03{
   align-items: center;
   justify-content: center;
@@ -412,15 +412,11 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 12px 40px 12px 20px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
 margin: 0px 12px;
 border-radius: 8px;
-
 background: rgba(255, 255, 255, 0.1);
 border: none;
 }
@@ -429,12 +425,10 @@ border: none;
    margin-top: 10px;
 }
 .news{
-    margin-top: 10px;
-    /* Button */
+margin-top: 10px;
 position: static;
 width: 670px;
 height: 40px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -442,7 +436,7 @@ align-items: center;
 padding: 12px 20px 12px 20px;
 
 
-/* Inside Auto Layout */
+
 flex: none;
 order: 0;
 flex-grow: 1;
@@ -454,11 +448,11 @@ border: none;
 
 }
 .button-4{
-    /* Button */
+    
 position: static;
 width: 200px;
 height: 45px;
-/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -466,7 +460,7 @@ align-items: flex-start;
 padding: 16px 40px 16px 40px;
 
 
-/* Inside Auto Layout */
+
 flex: none;
 order: 2;
 flex-grow: 0;
@@ -567,7 +561,7 @@ letter-spacing: 0%;
 }
 
 
-/* footer class */
+
 .footer{
   text-align: center;
             padding: 10px;
@@ -577,9 +571,9 @@ letter-spacing: 0%;
 }
 
 
-/* Media Query for 425px screen size */
+
 @media (max-width: 425px) {
-  /* General Adjustments */
+ 
   .header {
     padding: 20px;
   }
@@ -630,14 +624,14 @@ letter-spacing: 0%;
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 20px; /* Add some spacing above the image */
+    margin-top: 20px; 
   }
 
   .overlap-1,
   .overlap-2 {
     width: 100px;
     height: 50px;
-    top: unset; /* Reset the top position */
+    top: unset; 
     right: 10px;
     left: 10px;
     transform: translateY(0);
@@ -684,7 +678,7 @@ letter-spacing: 0%;
 
   .bmi-chart {
     margin-right: 0;
-    margin-bottom: 20px; /* Add some spacing below the chart */
+    margin-bottom: 20px; 
     width: 100%;
     text-align: center;
   }
@@ -701,7 +695,7 @@ letter-spacing: 0%;
 
   .new, .news {
     width: 100%;
-    margin-bottom: 10px; /* Add margin to separate inputs */
+    margin-bottom: 10px; 
   }
 
   .button-4 {
@@ -716,7 +710,7 @@ letter-spacing: 0%;
   .p-5, .p-6 {
     font-size: 0.875rem;
   }
-  /* Section 02 */
+ 
   .section-02 {
     margin-left: 0;
     width: 100%;
@@ -837,7 +831,7 @@ letter-spacing: 0%;
     font-size: 14px;
   }
 
-  /* Adjustments to text sizes */
+  
   .h1-4,
   .h1-6,
   .h1-7,
